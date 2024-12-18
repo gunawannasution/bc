@@ -1,0 +1,46 @@
+.form-check.form-switch .form-check-input {
+    width: 50px; /* Mengatur lebar switch */
+    height: 25px; /* Mengatur tinggi switch */
+}
+
+.form-check.form-switch .form-check-input:checked {
+    background-color: #28a745; /* Warna background ketika switch aktif (Yes) */
+}
+
+.form-check.form-switch .form-check-label {
+    flex: 1; /* Memastikan label berada di sisi kiri */
+    margin-right: 10px; /* Memberikan ruang pada label */
+}
+
+
+.form-check.form-switch .form-check-label {
+    flex: 1; /* Memastikan label mengambil ruang yang cukup di sebelah kiri */
+}
+
+.form-check.form-switch .form-check-input {
+    width: 50px; /* Menentukan lebar switch */
+    height: 25px; /* Menentukan tinggi switch */
+}
+
+.form-check.form-switch .d-flex {
+    align-items: center;
+}
+
+.form-check.form-switch .me-2 {
+    margin-right: 8px; /* Memberikan jarak pada teks "No" */
+}
+
+.form-check.form-switch .ms-2 {
+    margin-left: 8px; /* Memberikan jarak pada teks "Yes" */
+}
+
+@media (max-width: 768px) {
+    .form-check.form-switch {
+        flex-direction: column; /* Susun vertikal pada layar kecil */
+        align-items: flex-start; /* Rata kiri untuk elemen-elemen tersebut */
+    }
+
+    .form-check.form-switch .d-flex {
+        justify-content: flex-start; /* Menyusun tombol switch dan teks secara vertikal */
+    }
+}
